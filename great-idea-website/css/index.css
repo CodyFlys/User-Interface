@@ -57,7 +57,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Righteous', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -106,7 +106,7 @@ background-color: orange;
 	display: inline-block;
 	width: 50%;
 	font-size: 70px;
-	font-family: 'Bangers';
+	font-family: 'Righteous';
 	text-align: center;
 	vertical-align: 75px;
 	letter-spacing: 3px;
