@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +48,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -58,9 +57,141 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Righteous', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin:0 auto;
+}
+
+header {
+	margin-top: 20px;
+}
+
+nav {
+	display: inline-block;
+}
+
+nav a{
+	margin-right: 48px;
+	text-decoration: none;
+	color: gray;
+}
+
+nav a:hover{
+color: white;
+background-color: orange;
+}
+
+.container nav .logo {
+	vertical-align: -12px;
+	margin-left: 105px;
+}
+
+
+
+
+.section-One {
+	display: inline-block;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.section-One p {
+	display: inline-block;
+	width: 50%;
+	font-size: 70px;
+	font-family: 'Righteous';
+	text-align: center;
+	vertical-align: 75px;
+	letter-spacing: 3px;
+	margin-left: 20px;
+}
+
+.section-One img {
+	width: 35%;
+	margin-left: 105px;
+}
+
+.section-One h3 {
+	display: inline-block;
+	border: black solid 1px;
+	border-width: 100%;
+	font-family: 'sans-serif';
+	padding: 7px 30px;
+	margin-left: 170px;
+}
+
+.section-One h3:hover {
+	background-color: orange
+}
+
+
+.feature-Section {
+	display: inline-block;
+	width: 100%;
+
+}
+
+.feature-Section .box-1 {
+	display: inline-block;
+	width: 50%;
+}
+
+.feature-Section .box-2 {
+	display: inline-block;
+	width: 49%;
+}
+
+.feature-Section .box-3 {
+	display: inline-block;
+	width: 30%;
+	margin-right: 20px;
+}
+
+.feature-Section .box-4 {
+	display: inline-block;
+	width: 30%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.feature-Section .box-5 {
+	display: inline-block;
+	width: 30%;
+	margin-left: 20px;
+}
+
+.feature-Section .box-Container {
+	display: inline-block;
+}
+
+.feature-Section .middle-img {
+	margin: 30px auto;
+	width: 900px;
+}
+
+
+.contact-Section {
+	margin-top: 30px;
+}
+
+.copyright {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.info {
+	line-height: 30px;
+}
+
+.brk {
+	text-align: center;
+	margin: 30px 0;
+	width: 900px;
+}
